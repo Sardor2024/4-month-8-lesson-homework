@@ -3,16 +3,16 @@ system("cls")
 
 lst = []
 while True:
-    num = int(input("Son kiriting (0 kiritilsa to'xtaydi): "))  
+    num = int(input("son kiriting (0 kirtilsa toxtaydi): "))  
     if num == 0:
         break  
     lst.append(num)
 
-print("Kiritilgan sonlar:", lst)
+print("kiritilgan sonlar:", lst)
 
 for i in range(len(lst) - 1):  
     if lst[i] + 1 == lst[i + 1]:
-        print(f"Juft sonlar: {lst[i]}, {lst[i + 1]}")
+        print(f"para sonlar: {lst[i]}, {lst[i + 1]}")
 
 
-# extra vazifa 
+# extra 1
